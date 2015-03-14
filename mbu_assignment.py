@@ -34,6 +34,12 @@ def main():
 
     #This is for loop. We take each element from sys.argv and print it to the consile.
     for i in sys.argv[1:]:
+        
+        if int(i) >9: 
+            print "Greater"
+        else:
+            print "Less"
+            
         print str(i)
         print "\n"
 
